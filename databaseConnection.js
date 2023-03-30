@@ -2,7 +2,7 @@ const database = require("mongoose");
 const is_qoddi = process.env.IS_QODDI || false;
 const databaseName = "lab_example";
 const qoddiURI =
-  "mongodb+srv://theMongoAdmin:accidentalLoginSteps@cluster0.4ulcc.mongodb.net/" +
+  "mongodb+srv://theMongoAdmin:accidentalLoginSteps@cluster0.6vhyiv3.mongodb.net/" +
   databaseName +
   "?retryWrites=true&w=majority";
 const localURI =
